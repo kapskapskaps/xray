@@ -1,8 +1,8 @@
 Copy past
-``bash
+```bash
 https://raw.githubusercontent.com/kapskapskaps/xray/main/xray-install
-``   
+```  
 Help
-``bash
+```bash
 cat help
-``
+```
