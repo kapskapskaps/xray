@@ -154,7 +154,7 @@ chmod +x /usr/local/bin/mainuser
 touch /usr/local/bin/newuser
 cat << 'EOF' > /usr/local/bin/newuser
 #!/bin/bash
-read -p "Введите имя пользователя (email): " email
+read -p "Введите имя пользователя: " email
 
     if [[ -z "$email" || "$email" == *" "* ]]; then
     echo "Имя пользователя не может быть пустым или содержать пробелы. Попробуйте снова."
