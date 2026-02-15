@@ -1,6 +1,6 @@
 Copy past
 ```bash
-https://raw.githubusercontent.com/kapskapskaps/xray/main/xray-install
+wget -qO- https://raw.githubusercontent.com/kapskapskaps/xray/main/xray-install | bash
 ```  
 Help
 ```bash
